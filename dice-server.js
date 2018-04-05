@@ -9,7 +9,7 @@ svr.listen(8081) // 8081 포트를 사용합니다.
 // 서버에 접근이 있을 때의 처리
 function handler(req, res){
   // URL을 구분합니다.
-  const url = req.url
+  const url = req.url//
   // 최상위 페이지일 때
   if(url === '/' || url === '/index.html'){
     showIndexPage(req, res)//
