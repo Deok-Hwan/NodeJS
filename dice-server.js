@@ -12,7 +12,7 @@ function handler(req, res){
   const url = req.url
   // 최상위 페이지일 때
   if(url === '/' || url === '/index.html'){
-    showIndexPage(req, res)
+    showIndexPage(req, res)//
     return
   }
 
